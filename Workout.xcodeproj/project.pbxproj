@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D68A1925FD7AFA0075F83F /* ARLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D68A1725FD7AFA0075F83F /* ARLayer.swift */; };
+		01D68A1A25FD7AFA0075F83F /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D68A1825FD7AFA0075F83F /* BodySkeleton.swift */; };
 		0AC7D56325FD3E46005A4422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D56225FD3E46005A4422 /* AppDelegate.swift */; };
 		0AC7D56525FD3E46005A4422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D56425FD3E46005A4422 /* ContentView.swift */; };
 		0AC7D56925FD3E47005A4422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7D56825FD3E47005A4422 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01D68A1725FD7AFA0075F83F /* ARLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLayer.swift; sourceTree = "<group>"; };
+		01D68A1825FD7AFA0075F83F /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
 		0AC7D55F25FD3E46005A4422 /* Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC7D56225FD3E46005A4422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AC7D56425FD3E46005A4422 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D68A1C25FD7B000075F83F /* ARLayers */ = {
+			isa = PBXGroup;
+			children = (
+				01D68A1725FD7AFA0075F83F /* ARLayer.swift */,
+				01D68A1825FD7AFA0075F83F /* BodySkeleton.swift */,
+			);
+			path = ARLayers;
+			sourceTree = "<group>";
+		};
 		0AC7D55625FD3E46005A4422 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				0AF6806C25FD4F0E002BEEA6 /* Launch Screen.storyboard */,
+				01D68A1C25FD7B000075F83F /* ARLayers */,
 				0AC7D56A25FD3E47005A4422 /* Preview Content */,
 				0AC7D56825FD3E47005A4422 /* Assets.xcassets */,
 			);
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D68A1925FD7AFA0075F83F /* ARLayer.swift in Sources */,
 				0AC7D58D25FD42E7005A4422 /* WorkoutFactory.swift in Sources */,
 				0AC7D58A25FD4069005A4422 /* Medium.swift in Sources */,
+				01D68A1A25FD7AFA0075F83F /* BodySkeleton.swift in Sources */,
 				0AC7D56525FD3E46005A4422 /* ContentView.swift in Sources */,
 				0AC7D56325FD3E46005A4422 /* AppDelegate.swift in Sources */,
 				0AC7D57725FD3F12005A4422 /* WorkoutSelectionView.swift in Sources */,
